@@ -1,0 +1,22 @@
+.container_loginForms{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* On séléctionn tous les éléments de la class form pour leurs appliqué un style */
+.form > * {
+    padding: 2% 5%;
+    margin: 2% 0;
+    border-radius: 7px;
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 7px;
+}
