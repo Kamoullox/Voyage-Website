@@ -1,12 +1,18 @@
 import './App.css';
-import HomePage from './scenes/HomePage/HomePage';
+import { Routes, Route, Navigate } from 'react-router-dom';
+import LoginPage from "./pages/LoginPage/LoginPage";
+import WelcomePage from './pages/WelcomePage/WelcomePage';
+import RegistrationPage from './pages/RegistrationPage/RegistrationPage';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <HomePage />
-      </header>
+    <div className='App'>
+      <Routes>
+        <Route path="/Voyage-Website" element={<WelcomePage />} />
+        <Route path="/Voyage-Website/Login" element={<LoginPage />} />
+        <Route path="/Voyage-Website/registration" element={<RegistrationPage />} />
+      </Routes>
     </div>
   );
 }
