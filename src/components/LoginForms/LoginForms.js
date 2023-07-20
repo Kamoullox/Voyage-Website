@@ -30,6 +30,7 @@ function LoginForms() {
                     type="text" 
                     value={login} 
                     id="inputLogin" 
+                    autoComplete="username"  
                     placeholder="Identifiant / Adresse mail" 
                     onChange={handleChangeLogin}
                 />

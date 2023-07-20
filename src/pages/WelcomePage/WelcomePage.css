@@ -1,9 +1,70 @@
 .containerWelcomePage{
-    width: 90%;
-    height: 50%;
-    max-width: 500px;
+    width: 100%;
+    height: 100%;
+   background-image: url("/src/images/WelcomePageBackground.jpg");
+   background-size: cover;
+   background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centeredElementWelcomePage{
+    position: absolute;
+    width: 70%;
+    height: 40%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
+
+#friends{
+    font-family: NellaSue;
+    font-size: 4em;
+    color: #4b9560;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#trip{
+    font-family: Caveat;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: bold;
+    position: relative;
+    top: -20%;
+}
+
+.titleContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw; /* Remplacez la valeur par la largeur souhaitée */
+}
+
+.buttonStyle {
+    width: 100%;
+    border: none;
+    background-color: #fee1a7;
+    text-align: center;
+    text-decoration: none;
+    border-top: 2px solid #000000; /* Couleur de bordure en haut */
+    border-bottom: 2px solid #000000; /* Couleur de bordure en bas */
+  }
+  .buttonStyle>a{
+    font-family: 'PatrickHand', sans-serif; /* Remplacez 'NomDeLaPolice' par le nom de votre police */
+    font-size: 1.4em;
+  }
+
+  .buttonStyle>a:visited {
+    color: black; /* Couleur de police pour les liens déjà visités (à ajuster selon vos besoins) */
+  }
