@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Voyage-Website/static/css/main.6cfbc384.css",
-    "main.js": "/Voyage-Website/static/js/main.0e8b9ed6.js",
+    "main.css": "/Voyage-Website/static/css/main.7d8678fa.css",
+    "main.js": "/Voyage-Website/static/js/main.154cc049.js",
     "static/media/Caveat-VariableFont_wght.ttf": "/Voyage-Website/static/media/Caveat-VariableFont_wght.834178e16d110b21c85e.ttf",
     "static/media/PatrickHand-Regular.ttf": "/Voyage-Website/static/media/PatrickHand-Regular.ec54a049bdef4be52511.ttf",
     "static/media/WelcomePageBackground.jpg": "/Voyage-Website/static/media/WelcomePageBackground.6364db6d8f05cb8c7150.jpg",
     "static/media/NellaSueDEMO.ttf": "/Voyage-Website/static/media/NellaSueDEMO.2f8cb9394d181dc7b025.ttf",
     "static/media/Silent Reaction.ttf": "/Voyage-Website/static/media/Silent Reaction.78a9f531a6a84509afc3.ttf",
     "index.html": "/Voyage-Website/index.html",
-    "main.6cfbc384.css.map": "/Voyage-Website/static/css/main.6cfbc384.css.map",
-    "main.0e8b9ed6.js.map": "/Voyage-Website/static/js/main.0e8b9ed6.js.map"
+    "main.7d8678fa.css.map": "/Voyage-Website/static/css/main.7d8678fa.css.map",
+    "main.154cc049.js.map": "/Voyage-Website/static/js/main.154cc049.js.map"
   },
   "entrypoints": [
-    "static/css/main.6cfbc384.css",
-    "static/js/main.0e8b9ed6.js"
+    "static/css/main.7d8678fa.css",
+    "static/js/main.154cc049.js"
   ]
 }
