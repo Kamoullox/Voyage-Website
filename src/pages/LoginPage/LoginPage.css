@@ -1,0 +1,31 @@
+.containerLoginPage{
+    width: 100%;
+    height: 100%;
+   background-image: url("/src/images/WelcomePageBackground.jpg");
+   background-size: cover;
+   background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centeredElementLoginPage{
+    position: absolute;
+    width: 70%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-71%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titleContainer{
+    text-align: center;
+    font-family: NellaSue, sans-serif;
+    font-size: 4em;
+    color: #4b9560;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}

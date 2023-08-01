@@ -1,7 +1,5 @@
 .container_loginForms{
-    width: 90%;
-    margin: 0 auto;
-    max-width: 500px;
+    width: 100%;
 }
 
 .form{
@@ -12,16 +10,40 @@
 
 /* On séléctionn tous les éléments de la class form pour leurs appliqué un style */
 .form > * {
-    padding: 2% 5%;
-    margin: 2% 0;
-    border-radius: 7px;
+    
 }
 
 .form input{
-    border: 1px solid black;
-    border-radius: 7px;
+    background-color: #fee1a7;
+    text-decoration: none;
+    border-top: 2px solid #000000; /* Couleur de bordure en haut */
+    border-bottom: 2px solid #000000; /* Couleur de bordure en bas */
+    padding: 2% 5%;
+    font-family: sans-serif;
+    margin-bottom: 5%;
+    backdrop-filter: blur(3px);
+}
+
+.form input:focus{
+    outline: none;
+}
+
+.form label {
+    backdrop-filter: blur(3px);
+    width: fit-content;
 }
 
 .form button {
     cursor: pointer;
+    font-family: NellaSue, sans-serif;
+    font-size: 1.7em;
+    padding: 1% 10%;
+    font-weight: bold;
+    background-color: #fee1a7;
+    text-align: center;
+    text-decoration: none;
+    border-top: 2px solid #000000; /* Couleur de bordure en haut */
+    border-bottom: 2px solid #000000; /* Couleur de bordure en bas */
+    width: fit-content;
+    margin: 5% auto;
 }

@@ -26,21 +26,21 @@ function LoginForms() {
     return (
         <div className="container_loginForms" onSubmit={handleSubmit}>
             <form action="submit" className="form">
+                <label htmlFor="inputLogin">Adresse mail</label>
                 <input 
                     type="text" 
                     value={login} 
                     id="inputLogin" 
                     autoComplete="username"  
-                    placeholder="Identifiant / Adresse mail" 
                     onChange={handleChangeLogin}
                 />
 
+                <label htmlFor="inputPassword">Mot de passe</label>
                 <input 
                     type="password" 
                     value={password} 
                     id="inputPassword" 
                     autoComplete="current-password"  
-                    placeholder="Mot de passe" 
                     onChange={handleChangePassword}
                 />
 
