@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Voyage-Website/static/css/main.cabd5f96.css",
+    "main.css": "/Voyage-Website/static/css/main.6cfbc384.css",
     "main.js": "/Voyage-Website/static/js/main.0e8b9ed6.js",
     "static/media/Caveat-VariableFont_wght.ttf": "/Voyage-Website/static/media/Caveat-VariableFont_wght.834178e16d110b21c85e.ttf",
     "static/media/PatrickHand-Regular.ttf": "/Voyage-Website/static/media/PatrickHand-Regular.ec54a049bdef4be52511.ttf",
@@ -8,11 +8,11 @@
     "static/media/NellaSueDEMO.ttf": "/Voyage-Website/static/media/NellaSueDEMO.2f8cb9394d181dc7b025.ttf",
     "static/media/Silent Reaction.ttf": "/Voyage-Website/static/media/Silent Reaction.78a9f531a6a84509afc3.ttf",
     "index.html": "/Voyage-Website/index.html",
-    "main.cabd5f96.css.map": "/Voyage-Website/static/css/main.cabd5f96.css.map",
+    "main.6cfbc384.css.map": "/Voyage-Website/static/css/main.6cfbc384.css.map",
     "main.0e8b9ed6.js.map": "/Voyage-Website/static/js/main.0e8b9ed6.js.map"
   },
   "entrypoints": [
-    "static/css/main.cabd5f96.css",
+    "static/css/main.6cfbc384.css",
     "static/js/main.0e8b9ed6.js"
   ]
 }
