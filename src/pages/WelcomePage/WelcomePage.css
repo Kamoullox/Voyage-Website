@@ -22,7 +22,6 @@
 
 #friends{
     font-family: NellaSue;
-    font-size: 4em;
     color: #4b9560;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
@@ -30,7 +29,6 @@
 #trip{
     font-family: Caveat;
     text-transform: uppercase;
-    font-size: 3em;
     font-weight: bold;
     position: relative;
     top: -20%;
